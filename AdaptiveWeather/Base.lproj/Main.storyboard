@@ -18,6 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="Udf-9u-umf">
+                                <rect key="frame" x="150" y="20" width="300" height="197"/>
+                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AhQ-sl-9Hs" userLabel="TextContainer">
                                 <rect key="frame" x="0.0" y="237" width="600" height="363"/>
                                 <subviews>
@@ -32,9 +35,6 @@
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="150"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=compact" misplaced="YES">
-                                            <rect key="frame" x="-7" y="11" width="614" height="177"/>
-                                        </variation>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.21568627450980393" green="0.50196078431372548" blue="0.72941176470588232" alpha="1" colorSpace="calibratedRGB"/>
@@ -45,12 +45,6 @@
                                     <constraint firstItem="cFt-IN-J7J" firstAttribute="top" secondItem="AhQ-sl-9Hs" secondAttribute="top" constant="10" id="ucS-SV-LOt"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="Udf-9u-umf">
-                                <rect key="frame" x="150" y="20" width="300" height="197"/>
-                                <variation key="heightClass=compact" misplaced="YES">
-                                    <rect key="frame" x="150" y="20" width="300" height="160"/>
-                                </variation>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.29019607843137252" green="0.6705882352941176" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -61,11 +55,11 @@
                             <constraint firstItem="Udf-9u-umf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uoh-6M-U2Z"/>
                             <constraint firstItem="Udf-9u-umf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Vsi-3l-RNg"/>
                             <constraint firstAttribute="trailing" secondItem="AhQ-sl-9Hs" secondAttribute="trailing" id="cb3-0g-FRp"/>
-                            <constraint firstItem="AhQ-sl-9Hs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="180" id="g6o-kL-seW"/>
+                            <constraint firstItem="AhQ-sl-9Hs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="g6o-kL-seW"/>
                             <constraint firstItem="Udf-9u-umf" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.45" id="qha-YS-GgF"/>
                             <constraint firstItem="Udf-9u-umf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="uCW-hw-7SB"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AhQ-sl-9Hs" secondAttribute="bottom" id="us3-D9-aSP"/>
-                            <constraint firstItem="AhQ-sl-9Hs" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="zHC-ht-Y6J"/>
+                            <constraint firstItem="AhQ-sl-9Hs" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="zHC-ht-Y6J"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
