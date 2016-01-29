@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -30,6 +31,7 @@
                             <constraint firstItem="AhQ-sl-9Hs" firstAttribute="top" secondItem="Udf-9u-umf" secondAttribute="bottom" constant="20" id="3hS-08-Tgv"/>
                             <constraint firstItem="AhQ-sl-9Hs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7ok-gT-cB5"/>
                             <constraint firstItem="Udf-9u-umf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="KGW-sJ-7IJ"/>
+                            <constraint firstItem="Udf-9u-umf" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="OUz-Bo-mvs"/>
                             <constraint firstItem="Udf-9u-umf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uoh-6M-U2Z"/>
                             <constraint firstAttribute="trailing" secondItem="AhQ-sl-9Hs" secondAttribute="trailing" id="cb3-0g-FRp"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AhQ-sl-9Hs" secondAttribute="bottom" id="uwn-qV-nnc"/>
