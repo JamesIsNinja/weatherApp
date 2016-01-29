@@ -21,19 +21,19 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AhQ-sl-9Hs" userLabel="TextContainer">
                                 <rect key="frame" x="0.0" y="237" width="600" height="363"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cupertino" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFt-IN-J7J">
-                                        <rect key="frame" x="-7" y="10" width="614" height="177"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="150"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5IY-YE-7gK">
                                         <rect key="frame" x="73" y="58" width="454" height="295"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="250"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cupertino" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFt-IN-J7J">
+                                        <rect key="frame" x="-7" y="10" width="614" height="177"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="150"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
                                         <variation key="heightClass=compact" misplaced="YES">
-                                            <rect key="frame" x="73" y="-105" width="454" height="295"/>
+                                            <rect key="frame" x="-7" y="11" width="614" height="177"/>
                                         </variation>
                                     </label>
                                 </subviews>
@@ -44,13 +44,10 @@
                                     <constraint firstAttribute="bottom" secondItem="5IY-YE-7gK" secondAttribute="bottom" constant="10" id="fhp-Aq-Gdh"/>
                                     <constraint firstItem="cFt-IN-J7J" firstAttribute="top" secondItem="AhQ-sl-9Hs" secondAttribute="top" constant="10" id="ucS-SV-LOt"/>
                                 </constraints>
-                                <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="200" width="600" height="200"/>
-                                </variation>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="Udf-9u-umf">
                                 <rect key="frame" x="150" y="20" width="300" height="197"/>
-                                <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
+                                <variation key="heightClass=compact" misplaced="YES">
                                     <rect key="frame" x="150" y="20" width="300" height="160"/>
                                 </variation>
                             </imageView>
@@ -59,18 +56,37 @@
                         <constraints>
                             <constraint firstItem="AhQ-sl-9Hs" firstAttribute="top" secondItem="Udf-9u-umf" secondAttribute="bottom" constant="20" id="3hS-08-Tgv"/>
                             <constraint firstItem="AhQ-sl-9Hs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7ok-gT-cB5"/>
-                            <constraint firstItem="Udf-9u-umf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="KGW-sJ-7IJ"/>
+                            <constraint firstItem="Udf-9u-umf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="EX1-nL-L3g"/>
                             <constraint firstItem="Udf-9u-umf" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="OUz-Bo-mvs"/>
                             <constraint firstItem="Udf-9u-umf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uoh-6M-U2Z"/>
+                            <constraint firstItem="Udf-9u-umf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Vsi-3l-RNg"/>
                             <constraint firstAttribute="trailing" secondItem="AhQ-sl-9Hs" secondAttribute="trailing" id="cb3-0g-FRp"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AhQ-sl-9Hs" secondAttribute="bottom" id="uwn-qV-nnc"/>
+                            <constraint firstItem="AhQ-sl-9Hs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="180" id="g6o-kL-seW"/>
+                            <constraint firstItem="Udf-9u-umf" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.45" id="qha-YS-GgF"/>
+                            <constraint firstItem="Udf-9u-umf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="uCW-hw-7SB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AhQ-sl-9Hs" secondAttribute="bottom" id="us3-D9-aSP"/>
+                            <constraint firstItem="AhQ-sl-9Hs" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="zHC-ht-Y6J"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="EX1-nL-L3g"/>
+                                <exclude reference="Vsi-3l-RNg"/>
+                                <exclude reference="qha-YS-GgF"/>
+                                <exclude reference="g6o-kL-seW"/>
+                                <exclude reference="zHC-ht-Y6J"/>
+                            </mask>
+                        </variation>
                         <variation key="heightClass=compact">
                             <mask key="constraints">
-                                <exclude reference="KGW-sJ-7IJ"/>
+                                <include reference="EX1-nL-L3g"/>
                                 <exclude reference="OUz-Bo-mvs"/>
                                 <exclude reference="Uoh-6M-U2Z"/>
+                                <include reference="Vsi-3l-RNg"/>
+                                <include reference="qha-YS-GgF"/>
                                 <exclude reference="3hS-08-Tgv"/>
+                                <exclude reference="7ok-gT-cB5"/>
+                                <include reference="g6o-kL-seW"/>
+                                <include reference="zHC-ht-Y6J"/>
                             </mask>
                         </variation>
                     </view>
