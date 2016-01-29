@@ -24,7 +24,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AhQ-sl-9Hs" userLabel="TextContainer">
                                 <rect key="frame" x="0.0" y="237" width="600" height="363"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Cupertino" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cFt-IN-J7J">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cupertino" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cFt-IN-J7J">
                                         <rect key="frame" x="-7" y="10" width="614" height="177"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="150"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -33,7 +33,7 @@
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="90"/>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="28C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5IY-YE-7gK">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5IY-YE-7gK">
                                         <rect key="frame" x="73" y="60" width="454" height="295"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="250"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -45,11 +45,11 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.21568627450980393" green="0.50196078431372548" blue="0.72941176470588232" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="cFt-IN-J7J" firstAttribute="width" secondItem="AhQ-sl-9Hs" secondAttribute="width" id="2dK-TF-NCr"/>
-                                    <constraint firstItem="5IY-YE-7gK" firstAttribute="width" secondItem="AhQ-sl-9Hs" secondAttribute="width" id="4pL-Qv-ssp"/>
+                                    <constraint firstItem="cFt-IN-J7J" firstAttribute="width" secondItem="AhQ-sl-9Hs" secondAttribute="width" constant="14" id="2dK-TF-NCr"/>
+                                    <constraint firstItem="5IY-YE-7gK" firstAttribute="width" secondItem="AhQ-sl-9Hs" secondAttribute="width" constant="-146" id="4pL-Qv-ssp"/>
                                     <constraint firstItem="5IY-YE-7gK" firstAttribute="centerX" secondItem="AhQ-sl-9Hs" secondAttribute="centerX" id="81U-Mf-Z8f"/>
                                     <constraint firstItem="cFt-IN-J7J" firstAttribute="centerX" secondItem="AhQ-sl-9Hs" secondAttribute="centerX" id="c2s-DG-y39"/>
-                                    <constraint firstAttribute="bottom" secondItem="5IY-YE-7gK" secondAttribute="bottom" constant="10" id="fhp-Aq-Gdh"/>
+                                    <constraint firstAttribute="bottom" secondItem="5IY-YE-7gK" secondAttribute="bottom" constant="8" id="fhp-Aq-Gdh"/>
                                     <constraint firstItem="cFt-IN-J7J" firstAttribute="top" secondItem="AhQ-sl-9Hs" secondAttribute="top" constant="10" id="ucS-SV-LOt"/>
                                 </constraints>
                             </view>
